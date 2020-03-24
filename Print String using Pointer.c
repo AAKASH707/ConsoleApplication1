@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    char str[100];
+    char str[50];
     char *p;
 
     printf("Enter any string: ");
-    fgets(str, 100, stdin);
+    fgets(str, 50, stdin);
 
     /* Assigning the base address str[0] to pointer
      * p. p = str is same as p = str[0]
