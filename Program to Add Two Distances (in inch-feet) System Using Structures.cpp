@@ -2,7 +2,7 @@
 using namespace std;
 
 struct Distance{
-    int feet;
+    float feet;
     float inch;
 }d1 , d2, sum;
 
