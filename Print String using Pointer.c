@@ -1,3 +1,6 @@
+//shows how to print string using pointer
+
+
 #include <stdio.h>
 int main()
 {
@@ -7,6 +10,8 @@ int main()
     printf("Enter any string: ");
     fgets(str, 50, stdin);
 
+    
+    
     /* Assigning the base address str[0] to pointer
      * p. p = str is same as p = str[0]
      */
